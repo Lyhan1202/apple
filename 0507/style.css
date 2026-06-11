@@ -1,0 +1,53 @@
+body{
+    background-color: #f5f5f5;
+    justify-content: center;
+    padding: 40px 100px;
+    margin: 40px auto;
+}
+h2{
+    color: #7e5643;
+}
+.entryBtns input{
+    width: 200px;
+    padding: 12px 0;
+    border-radius: 4px;
+    background: #7e5643;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    margin-top: 30px;
+}
+
+.entryBtns input:hover{
+    opacity: 0.7;
+    background: #270c01;
+}
+label,
+input,
+textarea,
+select{
+  cursor: pointer;
+}
+.option-card{
+    color: #724d3d;
+    border: dotted;
+    width: 300px;
+    border-radius: 5px;
+    border-color: #ca896bb0;
+    display: flex;
+    align-items: left;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+#contents {
+  width: 798px;
+  margin: 40px auto;
+  padding: 40px 80px;
+  border: 1px solid #f6bb9a;
+  background-color: #fff;
+  background-color: #fdf8f8;
+margin: 0;
+padding: 40px 0;
+width: 100%;
+justify-content: center;
+}

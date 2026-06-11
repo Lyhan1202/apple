@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>甜點喜好統計_Template</title>
+    <link rel="stylesheet" href="style.css" media="all">
+</head>
+
+<body>
+
+    <div>
+        <h1 style="color: #d88aa5;">甜點喜好統計_Template</h1>
+        <p style="color:gray;">
+            各位喜愛甜點的朋友們大家好，我們想了解大家對甜點的喜好，
+            歡迎幫我們填寫這份問卷，選出你最喜歡的甜點種類。
+        </p>
+    </div>
+
+    <h2>1.請問您的性別?</h2>
+    <div class="option-card">
+        <input type="radio" name="sex" id="male" value="生理男">
+        <label for="male">生理男</label>
+    </div>
+    <div class="option-card">
+        <input type="radio" name="sex" id="female" value="生理女">
+        <label for="female">生理女</label>
+    </div>
+    <div class="option-card">
+        <input type="radio" name="sex" id="other" value="其他">
+        <label for="other">其他</label>
+    </div>
+
+    <h2>2.請問您今年幾歲?</h2>
+    <p style="font-size: 12px; color: #d88aa5;">需大於等於 1 可接受到小數點第 0 位</p>
+    <input type="number" name="number" id="age" placeholder="請填入數字">
+
+    <h2>3.您最喜歡哪一種甜點?</h2>
+    <p style="border-radius: 20px; background: #c76f91; width: 40px; padding: 5px; color: #ffffff; text-align: center; font-size: 15px;">
+        複選
+    </p>
+
+    <img src="蛋糕.png" alt="草莓蛋糕" width="300">
+    <input type="checkbox" name="dessert-choice" id="dessert-choice1" value="蛋糕">
+    <label for="dessert-choice1">蛋糕</label>
+
+    <img src="馬卡龍 .png" alt="馬卡龍" width="300">
+    <input type="checkbox" name="dessert-choice" id="dessert-choice2" value="馬卡龍">
+    <label for="dessert-choice2">馬卡龍</label>
+
+    <img src="布丁.png" alt="布丁" width="300">
+    <input type="checkbox" name="dessert-choice" id="dessert-choice3" value="布丁">
+    <label for="dessert-choice3">布丁</label>
+
+    <img src="甜甜圈.png" alt="甜甜圈" width="300">
+    <input type="checkbox" name="dessert-choice" id="dessert-choice4" value="甜甜圈">
+    <label for="dessert-choice4">甜甜圈</label>
+
+    <div class="entryBtns">
+        <input type="submit" value="送出">
+    </div>
+
+</body>
+
+</html>
